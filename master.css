@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Viga);
+html {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: Droid Sans, sans-serif;
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+#homepageheader {
+  background: #121212;
+  display: table;
+  font-size: 20pt;
+  color: white;
+  font-family: Viga, Helvetica, sans-serif;
+  width: 100%;
+  height: 110px;
+  padding: 0px;
+  margin: 0px; }
+  @media screen and (max-width: 768px) {
+    #homepageheader {
+      font-size: 16pt; } }
+  #homepageheader li {
+    display: table-cell;
+    padding: 0px;
+    margin: 0px;
+    text-align: center; }
+  #homepageheader .volunteerheader, #homepageheader .donateheader {
+    width: 100px; }
+
+.logotype {
+  display: block;
+  margin: 0 auto;
+  margin: 20px;
+  width: auto;
+  max-height: 90px; }
+
+.header-graphic {
+  width: 80px;
+  height: 64px;
+  padding: 10px; }
+
+.header-graphic-left {
+  left: 10px; }
+
+.header-graphic-right {
+  right: 10px; }
+
+/*# sourceMappingURL=master.css.map */
