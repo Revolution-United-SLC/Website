@@ -19,44 +19,76 @@ a
     text-decoration: none
     color: white
 
-#homepageheader
-    background: $secondary-color
-    display: table
+h1
     font-family: $display-font
-    width: 100%
-    height: 110px
-    padding: 0px
-    margin: 0px
-    @media screen and (max-width: 768px)
+    color: white
+    font-size: 18pt
 
-    li
-        display: table-cell
-        padding: 0px
-        margin: 0px
-
-
-    .volunteerheader, .donateheader
-        width: 100px
-
-
-.logotype //img in li
-    display: block
+#wrapper
+    max-width: 1280px
     margin: 0 auto
-    margin: 20px
-    width: auto
-    max-height: 90px
+    position: relative
+
+// header
+
+   
+
+.logotype 
+    display: inherit
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    margin: 0 auto
+    // height: 100px
+    // width: auto
+    // margin: 20px
+    max-width: 1000px
 
 .header-graphic
-    width: 80px
-    height: 64px
+    width: 100px
+    height: 80px
     position: absolute
-    @media screen and (min-width: 1920px)
-        padding: 0 10vw
+    display: inline
+    margin-top: 15px 
 
+    @media screen and (min-width: 1920px)
+        padding: 0
     
 .header-graphic-left
     left: $header-image-spacing
+    padding: 0 30px
     
 .header-graphic-right
     right: $header-image-spacing
-   
+    padding: 0 0 0 30px
+    // left: -100px
+
+#homepageheader
+    width: 100%
+    background: $secondary-color
+    height: 110px
+    padding: 0px
+    margin: 0px
+    position: relative
+    display: block
+    z-index: -900
+    // @media screen and (max-width: 768px)
+
+// menu
+#menu
+    background: $secondary-color
+    width: 234px
+    height: 503px
+
+
+// banners
+
+.banner
+    background: $primary-color
+    width: 100%
+    height: 80px
+
+.project
+    left: -100px

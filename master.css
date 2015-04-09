@@ -12,43 +12,65 @@ a {
   text-decoration: none;
   color: white; }
 
-#homepageheader {
-  background: #121212;
-  display: table;
-  font-size: 20pt;
-  color: white;
+h1 {
   font-family: Viga, Helvetica, sans-serif;
-  width: 100%;
-  height: 110px;
-  padding: 0px;
-  margin: 0px; }
-  @media screen and (max-width: 768px) {
-    #homepageheader {
-      font-size: 16pt; } }
-  #homepageheader li {
-    display: table-cell;
-    padding: 0px;
-    margin: 0px;
-    text-align: center; }
-  #homepageheader .volunteerheader, #homepageheader .donateheader {
-    width: 100px; }
+  color: white;
+  font-size: 18pt; }
+
+#wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative; }
 
 .logotype {
-  display: block;
+  display: inherit;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   margin: 0 auto;
-  margin: 20px;
-  width: auto;
-  max-height: 90px; }
+  max-width: 1000px; }
 
 .header-graphic {
-  width: 80px;
-  height: 64px;
-  padding: 10px; }
+  width: 100px;
+  height: 80px;
+  position: absolute;
+  display: inline;
+  margin-top: 15px; }
+  @media screen and (min-width: 1920px) {
+    .header-graphic {
+      padding: 0; } }
 
 .header-graphic-left {
-  left: 10px; }
+  left: 10px;
+  padding: 0 30px; }
 
 .header-graphic-right {
-  right: 10px; }
+  right: 10px;
+  padding: 0 0 0 30px; }
+
+#homepageheader {
+  width: 100%;
+  background: #121212;
+  height: 110px;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  display: block;
+  z-index: -900; }
+
+#menu {
+  background: #121212;
+  width: 234px;
+  height: 503px; }
+
+.banner {
+  background: #941C22;
+  width: 100%;
+  height: 80px; }
+
+.project {
+  left: -100px; }
 
 /*# sourceMappingURL=master.css.map */
